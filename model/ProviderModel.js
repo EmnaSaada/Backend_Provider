@@ -4,7 +4,7 @@ const validator = require('validator');
 
 const ProviderSchema = mongoose.Schema({
     //_id: false,
-    //provider_id:{ type: String, unique: true, index: true, maxLength: 50, required: true},
+    provider_id:{ type: String, maxLength: 50, required: true},
     contacts:{
         type:{ type: String, maxLength: 100,required: true },
         adress:{

@@ -2,7 +2,8 @@ const express = require('express');
 const bodyparser = require('body-parser');
 const mongoose = require('mongoose');
 const provider = require('./route/providerRouter');
-let cors = require('cors');
+const cors = require('cors');
+const path = require('path');
 
 
 /*const swaggerJsonDoc = require('swagger-jsdoc')	
